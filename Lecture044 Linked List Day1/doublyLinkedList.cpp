@@ -25,7 +25,7 @@ class Node {
 };
 
 //traversing a linked list
-void print(Node* head) {
+void print(Node* &head) {
     Node* temp  = head ;
 
     while(temp != NULL) {
@@ -36,7 +36,7 @@ void print(Node* head) {
 }
 
 //gives length of Linked List
-int getLength(Node* head) {
+int getLength(Node* &head) {
     int len = 0;
     Node* temp  = head ;
 
